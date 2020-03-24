@@ -413,7 +413,7 @@ export function getArtefactUrl(_vcsRoot: string, _artefactUrl: string) {
       _artefactUrl = `https://${CI_BUILD_NUM}-${CIRCLE_PROJECT_ID}-bb.circle-artifacts.com/0/`;
       break;
     default: {
-      _artefactUrl = "";
+      _artefactUrl = "https://app.buddy.works/playologie/playologie/pipelines/pipeline/159107/browse/content";
     }
   }
   return _artefactUrl;
